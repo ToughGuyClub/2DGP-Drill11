@@ -69,3 +69,4 @@ class Zombie:
             elif self.hp == 1:
                 game_world.remove_object(self)
 
+
