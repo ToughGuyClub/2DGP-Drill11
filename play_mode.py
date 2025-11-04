@@ -48,6 +48,7 @@ def init():
         game_world.add_collision_pair('zombie:ball',z,None)
         game_world.add_collision_pair('boy:zombie',None,z)
 
+
 def update():
     game_world.update()
     # global boy
