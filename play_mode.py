@@ -41,6 +41,7 @@ def init():
     for ball in balls:  #리스트를 함수에 넣는거 구현안해놔서 for문으로 하나씩 넣어야함
         game_world.add_collision_pair('boy:ball',None,ball)     # [[boy],[ball,ball,ball...]]이렇게 들어가있음
 
+
     #좀비 한번 생성해봄
     zombie=[Zombie() for i in range(5)]
     game_world.add_objects(zombie,1)
